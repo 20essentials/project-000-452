@@ -1,0 +1,61 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Producción
+/build
+/dist
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests
+/coverage
+
+# Cache
+.cache/
+.eslintcache
+
+# Archivos temporales
+*.log
+
+# Archivos de configuración locales
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel (si se usa)
+.cache/
+.parcel-cache
+
+# Vite
+.vite
+
+# Next.js (por si lo mezclas o migras)
+.next/
+out/
+
+# Storybook
+.storybook-out/
